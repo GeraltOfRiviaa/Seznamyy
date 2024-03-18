@@ -87,15 +87,22 @@
     <p>Komplexní tabulka HTML může být vytvořena záhlavním, tělem a zápatím. Pomocí atributů colspan a rowspan můžeme
         vytvořit sloužené buňky, které přesahují pres více sloupců a řádků.</p>
 
-    <table border="1">
+    <table>
         <caption>Studijní obory na SŠPU Opava - školní rok 2016/17</caption>
         <thead>
-            <tr>
-                <th>Název oboru</th>
-                <th>Kód oboru</th>
-                <th>Počet tříd</th>
-                <th>Počty žáků</th>
+            <tr rowspan="2">
+                <th rowspan="2">Název oboru</th>
+                <th rowspan="2">Kód oboru</th>
+                <th rowspan="2">Počet tříd</th>
+                <th colspan="3">Počty žáků</th>
             </tr>
+            <tr>
+                <th >Dívky</th>
+                <th >Chlapci</th>
+                <th >Celkem</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <th>Informační technologie</th>
                 <th>18-20-M/01</th>
@@ -120,12 +127,14 @@
                 <th>74</th>
                 <th>94</th>
             </tr>
+        </tbody>
+        <tfoot>
             <tr>
-                <th>Celkové údaje</th>
+                <th colspan="2">Celkové údaje</th>
                 <th>13 tříd</th>
-                <th>394 žáků</th>
+                <th colspan="3">394 žáků</th>
             </tr>
-        </thead>
+        </tfoot>
     </table>
 </body>
 
