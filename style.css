@@ -1,5 +1,7 @@
 body {
-    margin: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom:2%;
     text-align: justify;
 }
 h2{
@@ -24,9 +26,37 @@ ol.a{
 dt, dd{
     padding-bottom:10px ;
 }
-table, th{
+table{
     border: 1px solid;
+    border-collapse: collapse;
+    padding: 6px;
+    margin:auto;
+}
+th{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 6px;
 }
 thead{
     text-align: center;
+    background-color:#bfc2c6;
+    padding-top: 10px;
+}
+tfoot{
+    background-color: #bfc2c6;
+    
+}
+th.udaje{
+  color:red;
+  border-color: black ;
+}
+caption{
+    color: whitesmoke;
+    background-color: #4d4c4c;
+    margin-bottom: 5px;
+    padding: 3px;
+    
+}
+th.cisla{
+    text-align: right;
 }
