@@ -1,0 +1,32 @@
+body {
+    margin: 20%;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    padding: 1%;
+    background-color: #A7383E;
+    border-radius:10px;
+    color: whitesmoke;
+}
+h3{
+    color: #1d325b;
+}
+h1{
+    text-align: center;
+}
+ol.rim{
+    list-style-type:upper-roman;
+}
+ol.a{
+    list-style-type:lower-alpha;
+}
+dt, dd{
+    padding-bottom:10px ;
+}
+table, th{
+    border: 1px solid;
+}
+thead{
+    text-align: center;
+}
