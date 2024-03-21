@@ -10,6 +10,13 @@ h2{
     background-color: #A7383E;
     border-radius:10px;
     color: whitesmoke;
+    position: relative;
+}
+h2::before{
+    content:"▶";
+    position: absolute;
+    left: 10px;
+    color:grey
 }
 h3{
     color: #1d325b;
